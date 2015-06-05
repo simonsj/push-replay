@@ -7,7 +7,7 @@ Usage:
     #
     # create an empty destination repo
     #
-    GH_API_TOKEN=$(cat your-token) ./create-new-repo.sh <repo-name>
+    GH_API_TOKEN=$(cat your-GitHub-personal-access-token) ./create-new-repo.sh <repo-name>
     
     #
     # clone down a source repo, configure remote to destination repo
@@ -33,4 +33,4 @@ Usage:
         git push -u dest master
       done
 
-All this could be better refined.
+Disclaimer: super scrappy; all this could be better refined.
